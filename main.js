@@ -46,5 +46,6 @@ function loadListElements(users){
   for(let i = 0; i < users.length; i++ ){
     addLIElementInList(users[i])
   }
+  alert('legal')
 }
 loadListElements(users)
