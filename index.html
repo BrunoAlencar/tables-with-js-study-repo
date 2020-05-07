@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables js</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Bruno</td>
+        <td>
+          <button onclick="showAge(24)">
+            Mostrar idade
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Carlos</td>
+        <td>
+          <button onclick="showAge(25)">
+            Mostrar idade
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <ul id="user-list">
+    <!-- <li>
+      trelo
+    </li> -->
+  </ul>
+  <input id="user-name" placeholder="Digite seu nome"/>
+  <br>
+  <br>
+  <button onclick="addNewUser()">Adicionar +</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
